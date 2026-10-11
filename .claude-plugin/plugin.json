@@ -1,0 +1,8 @@
+{
+  "name": "visual-mode",
+  "version": "0.1.0",
+  "description": "Attach a rendered Visual (Sketch or Walkthrough) to every Substantive reply, replacing explanatory prose.",
+  "author": {
+    "name": "Hien-Trinh"
+  }
+}
