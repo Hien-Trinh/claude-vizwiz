@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-vizwiz",
+  "description": "Visual mode: a rendered Visual on every Substantive reply.",
+  "owner": {
+    "name": "Hien-Trinh"
+  },
+  "plugins": [
+    {
+      "name": "visual-mode",
+      "description": "Attach a Sketch or Walkthrough to every Substantive reply, replacing explanatory prose.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
