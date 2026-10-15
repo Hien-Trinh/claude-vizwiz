@@ -25,7 +25,7 @@ A stepped Visual that reveals a chunked explanation one Slide at a time, earlier
 _Avoid_: slideshow, carousel, presentation
 
 **Slide**:
-One chunk of a Deck: a title, at most 3 short lines, and optionally one small Sketch.
+One chunk of a Deck: a takeaway headline, a small diagram, and at most 3 short lines whose key terms are coloured to match the diagram. A Deck's last Slide is a one-tap quiz.
 _Avoid_: card, page, step (step belongs to a Walkthrough)
 
 **Child session**:
