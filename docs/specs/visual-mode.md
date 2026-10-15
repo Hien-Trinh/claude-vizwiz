@@ -43,7 +43,7 @@ The reader builds understanding from pictures. In Visual mode, every Substantive
    - answers in the main chat under the normal rules when session tools are missing or the start is refused.
 
    The Child session runs the same hooks, so Visual mode is on there. Its answers stay there and never report back.
-6. **Visual replaces prose.** If the Visual shows it, the text does not repeat it. Text keeps only what the Visual cannot show: the next action, commands, and caveats. In a Deck, the explanation goes on the Slides; the next action and any command or code meant for copying stay in normal chat.
+6. **Visual replaces prose.** If the Visual shows it, the text does not repeat it. Text keeps only what the Visual cannot show: the next action, commands, and caveats. In a Deck, the explanation goes on the Slides; the next action and any command or code meant for copying stay in normal chat. At most 3 lines of text outside the Visual, not counting commands and code blocks. Anything longer goes into the Visual, or the reply becomes a Deck.
 7. **Placement**: the reply's first line stays the next action (ADHD mode rule 1). The Visual comes right after it.
 8. **Size budget**: a Sketch has at most about 6 boxes, roughly 1–3k tokens. A Walkthrough has at most about 10 steps, roughly 4–8k tokens. A Deck has at most 6 Slides. Over budget means split it into several Visuals or cut content; a Deck gets cut, never split.
 9. **Setup**: call the widget tool's `read_me` once per session, before the first Visual, with the module matching the kind (`diagram`, `interactive`). Don't mention this call in the reply.
