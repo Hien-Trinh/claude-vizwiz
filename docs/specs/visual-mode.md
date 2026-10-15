@@ -43,6 +43,14 @@ The reader builds understanding from pictures. In Visual mode, every Substantive
    - answers in the main chat under the normal rules when session tools are missing or the start is refused.
 
    The Child session runs the same hooks, so Visual mode is on there. Its answers stay there and never report back.
+
+   Claude copies the Child reply rules into the fork's `prompt`, so they hold even when the Child loads an older installed skill.
+
+   **Child reply rules.** The user juggles several projects and lands in the Child session cold, so a little extra length is fine if it reads easily:
+   - Open with one orientation line: the project, what the parent conversation was deciding, and which Slide this expands.
+   - Answer as a Deck when there are 3+ chunks, otherwise one Sketch. A Child Slide may run to 5 lines.
+   - Use plain words. Define any term on first use. Never point at "above" or earlier messages; restate what is needed.
+   - End with one next action. The orientation line and the next action are the only text outside the Visual.
 6. **Visual replaces prose.** If the Visual shows it, the text does not repeat it. Text keeps only what the Visual cannot show: the next action, commands, and caveats. In a Deck, the explanation goes on the Slides; the next action and any command or code meant for copying stay in normal chat. At most 3 lines of text outside the Visual, not counting commands and code blocks. Anything longer goes into the Visual, or the reply becomes a Deck.
 7. **Placement**: the reply's first line stays the next action (ADHD mode rule 1). The Visual comes right after it.
 8. **Size budget**: a Sketch has at most about 6 boxes, roughly 1–3k tokens. A Walkthrough has at most about 10 steps, roughly 4–8k tokens. A Deck has at most 6 Slides. Over budget means split it into several Visuals or cut content; a Deck gets cut, never split.
