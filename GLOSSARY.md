@@ -18,7 +18,19 @@ _Avoid_: thumbnail, mini-diagram
 
 **Walkthrough**:
 A stepped Visual where each step shows program state at one point in the code.
-_Avoid_: slides, trace, animation
+_Avoid_: Deck, trace, animation
+
+**Deck**:
+A stepped Visual that reveals a chunked explanation one Slide at a time, earlier Slides staying visible.
+_Avoid_: slideshow, carousel, presentation
+
+**Slide**:
+One chunk of a Deck: a takeaway headline, a small diagram, and at most 3 short lines whose key terms are coloured to match the diagram. A Deck's last Slide is a one-tap quiz.
+_Avoid_: card, page, step (step belongs to a Walkthrough)
+
+**Child session**:
+A forked desktop session that answers "more detail" on one Slide, opened in split view next to the Deck.
+_Avoid_: side chat, btw (that is `/btw`, which can't render Visuals)
 
 **Flow**:
 A Sketch of steps, requests, or decisions in sequence.
